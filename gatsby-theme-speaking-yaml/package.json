@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-theme-speaking-yaml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Laurie on tech",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
+  ],
+  "dependencies": {
+    "gatsby-image": "^2.2.7",
+    "gatsby-plugin-sharp": "^2.2.9",
+    "gatsby-source-filesystem": "^2.1.6",
+    "gatsby-transformer-sharp": "^2.2.5",
+    "gatsby-transformer-yaml": "^2.2.4"
+  }
+}

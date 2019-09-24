@@ -1,0 +1,66 @@
+- index: 1
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/chicago.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+- index: 2
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/richmond.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+- index: 3
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/atlanta.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+- index: 4
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/richmond.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+- index: 5
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/chicago.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+- index: 6
+  conference: Gatsby Conf
+  year: 2018
+  url: https://www.gatsbyjs.org/
+  date: June 23, 2018
+  location: Seattle, WA
+  image: speaking/atlanta.jpg
+  talks:
+    - title: Themes Themes Themes
+      type: Video
+      video: https://www.youtube.com/watch?v=rDlokHuYwq4
