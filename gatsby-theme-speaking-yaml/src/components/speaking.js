@@ -9,7 +9,7 @@ const SpeakingPage = () => {
     {
       sitePlugin(name: { eq: "gatsby-theme-speaking-yaml" }) {
         pluginOptions {
-          title
+          heading
           displayTalks
         }
       }
@@ -56,7 +56,7 @@ const SpeakingPage = () => {
     <section>
       <Hero
         image={data.banner.childImageSharp.fluid}
-        title={data.sitePlugin.pluginOptions.title}
+        title={data.sitePlugin.pluginOptions.heading}
       />
       <EventGrid events={data.events} />
       {displayTalks}

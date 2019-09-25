@@ -5,7 +5,7 @@ This is a theme for a page that showcases conference speaking and available talk
 ### Options
 
 There are two options for this configuration.
-The first is a title for the page.
+The first is a heading for the page.
 The second is a boolean value to determine whether you would like to display the talks section of the theme. If set to true the talks.yaml file is necessary. If set to false, it is not.
 
 ### Dependencies

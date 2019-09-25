@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
-import Content from './content'
+import EventItem from './event-item'
 
 const Event = ({ event }) => {
   return (
@@ -24,8 +24,8 @@ const Event = ({ event }) => {
       </a>
       <p className="location">{event.location}</p>
       <ul>
-        {event.content.map((content) => (
-          <Content content={content} key={content.title} />
+        {event.content.map((item) => (
+          <EventItem item={item} key={item.title} />
         ))}
       </ul>
     </div>
