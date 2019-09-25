@@ -2,7 +2,7 @@
 
 This is a theme for a page that showcases conference speaking and available talks. The example repository shows the theme in use.
 
-### Dependencies (optional)
+### Dependencies
 
 There are no dependencies beyond those included in the package.json file. Note that the example repository also includes the source-file-system plugin so that the location of the yaml files is discoverable.
 
