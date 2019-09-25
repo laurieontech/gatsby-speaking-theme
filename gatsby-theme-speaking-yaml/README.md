@@ -6,12 +6,11 @@
 mkdir my-site
 cd my-site
 yarn init
-# install gatsby-theme-minimal and it's dependencies
+# install gatsby-theme-speaking-yaml and it's dependencies
 yarn add gatsby react react-dom gatsby-theme-speaking-yaml
 ```
 
-Then add the theme to your `gatsby-config.js`. We'll use the long form
-here for education purposes.
+Then add the theme to your `gatsby-config.js`. Note the options.
 
 ```javascript
 module.exports = {
