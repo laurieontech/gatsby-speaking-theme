@@ -7,8 +7,9 @@ The theme can be seen in use [here](https://laurieontech.com/speaking/).
 ### Options
 
 There are two options for this configuration.
-The first is a heading for the page.
-The second is a boolean value to determine whether you would like to display the talks section of the theme. If set to true the talks.yaml file is necessary. If set to false, it is not.
+
+- `heading` defines a title for the page
+- `displayTalks` is a boolean that determines whether the talks section of the theme will appear. If set to true the talks.yaml file is necessary. If set to false, it is not.
 
 ### Dependencies
 
