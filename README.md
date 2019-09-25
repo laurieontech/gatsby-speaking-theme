@@ -2,7 +2,7 @@
 
 This is a theme for a page that showcases conference speaking and available talks. The example repository shows the theme in use.
 
-The theme can be seen in the wild [here](https://laurieontech.com/speaking/)
+The theme can be seen in use [here](https://laurieontech.com/speaking/).
 
 ### Options
 
