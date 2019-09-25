@@ -14,7 +14,7 @@ Instructions for installing a theme are available here: https://www.gatsbyjs.org
 
 This particular theme requires model data that matches the queries. Examples of this data structure can be found in the example project.
 
-### Available Options
+## Available Options
 
 There are two options for this configuration.
 
