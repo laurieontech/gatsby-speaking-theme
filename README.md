@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-speaking-yaml',
       options: {
-        title: 'Speaking Engagements',
+        heading: 'Speaking Engagements',
         displayTalks: true,
       },
     },
