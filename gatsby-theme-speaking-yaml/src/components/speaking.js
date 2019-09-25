@@ -51,7 +51,7 @@ const SpeakingPage = () => {
     <section>
       <Hero
         image={data.banner.childImageSharp.fluid}
-        title="SPEAKING ENGAGEMENTS"
+        title="Speaking Engagements"
       />
       <EventGrid events={data.events} />
       <Talks talks={data.talks} />

@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import Content from './content'
 
 const Event = ({ event }) => {
   return (
@@ -23,18 +24,8 @@ const Event = ({ event }) => {
       </a>
       <p className="location">{event.location}</p>
       <ul>
-        {event.content.map(({ title, link, type }) => (
-          <li key={title} className="talk">
-            <p>{title}</p>
-            <a
-              className={link ? 'button' : 'no-link'}
-              target="_blank"
-              rel="noopener noreferrer"
-              href={link}
-            >
-              {type}
-            </a>
-          </li>
+        {event.content.map((content) => (
+          <Content content={content} key={content.title} />
         ))}
       </ul>
     </div>

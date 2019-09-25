@@ -3,7 +3,7 @@ import Img from 'gatsby-image'
 
 import './hero.css'
 
-const Hero = ({ image, title, description = '' }) => {
+const Hero = ({ image, title }) => {
   return (
     <section id="banner">
       <div className="inner">

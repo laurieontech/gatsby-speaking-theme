@@ -8,8 +8,8 @@ const EventGrid = ({ events }) => {
     <section key="events" className="wrapper">
       <h2>Appearances</h2>
       <div className="eventwrap">
-        {events.edges.map(({ node }) => (
-          <Event event={node} key={node.date} />
+        {events.edges.map(({ node: event }) => (
+          <Event event={event} key={event.date} />
         ))}
       </div>
     </section>
