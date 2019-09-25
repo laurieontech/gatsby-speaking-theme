@@ -1,6 +1,12 @@
 module.exports = {
   plugins: [
-    'gatsby-theme-speaking-yaml',
+    {
+      resolve: 'gatsby-theme-speaking-yaml',
+      options: {
+        title: 'Speaking Engagements',
+        displayTalks: true,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

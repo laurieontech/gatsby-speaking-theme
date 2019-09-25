@@ -7,6 +7,12 @@ import Talks from './talks/talks'
 const SpeakingPage = () => {
   const data = useStaticQuery(graphql`
     {
+      sitePlugin(name: { eq: "gatsby-theme-speaking-yaml" }) {
+        pluginOptions {
+          title
+          displayTalks
+        }
+      }
       events: allSpeakingYaml(sort: { fields: [index], order: DESC }) {
         edges {
           node {
@@ -30,14 +36,6 @@ const SpeakingPage = () => {
           }
         }
       }
-      talks: allTalksYaml {
-        edges {
-          node {
-            title
-            description
-          }
-        }
-      }
       banner: file(relativePath: { eq: "headers/default.jpg" }) {
         childImageSharp {
           fluid {
@@ -47,14 +45,21 @@ const SpeakingPage = () => {
       }
     }
   `)
+
+  // access theme options to conditionally display talk component
+  let displayTalks = ''
+  if (data.sitePlugin.pluginOptions.displayTalks) {
+    displayTalks = <Talks />
+  }
+
   return (
     <section>
       <Hero
         image={data.banner.childImageSharp.fluid}
-        title="Speaking Engagements"
+        title={data.sitePlugin.pluginOptions.title}
       />
       <EventGrid events={data.events} />
-      <Talks talks={data.talks} />
+      {displayTalks}
     </section>
   )
 }
