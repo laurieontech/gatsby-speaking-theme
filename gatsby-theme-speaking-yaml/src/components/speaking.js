@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import Event from './event'
-import Hero from './hero'
-import Talks from './talks'
+import EventGrid from './events/eventgrid'
+import Hero from './hero/hero'
+import Talks from './talks/talks'
 
 const SpeakingPage = () => {
   const data = useStaticQuery(graphql`
     {
-      allSpeakingYaml(sort: { fields: [index], order: DESC }) {
+      events: allSpeakingYaml(sort: { fields: [index], order: DESC }) {
         edges {
           node {
             conference
@@ -22,9 +22,9 @@ const SpeakingPage = () => {
                 }
               }
             }
-            talks {
+            content {
               title
-              video
+              link
               type
             }
           }
@@ -38,10 +38,8 @@ const SpeakingPage = () => {
           }
         }
       }
-      banner: file(relativePath: { eq: "headers/computer.jpg" }) {
+      banner: file(relativePath: { eq: "headers/default.jpg" }) {
         childImageSharp {
-          # Specify the image processing specifications right in the query.
-          # Makes it trivial to update as your page's design changes.
           fluid {
             ...GatsbyImageSharpFluid
           }
@@ -55,16 +53,7 @@ const SpeakingPage = () => {
         image={data.banner.childImageSharp.fluid}
         title="SPEAKING ENGAGEMENTS"
       />
-      <section id="speaking" className="wrapper style4 container">
-        <div className="container">
-          <h2>Appearances</h2>
-          <div className="wrapper" id="speakwrap">
-            {data.allSpeakingYaml.edges.map(({ node }) => (
-              <Event event={node} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <EventGrid events={data.events} />
       <Talks talks={data.talks} />
     </section>
   )

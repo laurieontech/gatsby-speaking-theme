@@ -1,66 +1,69 @@
 - index: 1
-  conference: Gatsby Conf
+  conference: Purple Conf
   year: 2018
   url: https://www.gatsbyjs.org/
   date: June 23, 2018
   location: Seattle, WA
   image: speaking/chicago.jpg
-  talks:
-    - title: Themes Themes Themes
-      type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+  content:
+    - title: Gatsby Swag Talk
+      type: title
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
 - index: 2
-  conference: Gatsby Conf
+  conference: Universe Conf
   year: 2018
   url: https://www.gatsbyjs.org/
-  date: June 23, 2018
-  location: Seattle, WA
+  date: July 23, 2018
+  location: Chicago, IL
   image: speaking/richmond.jpg
-  talks:
-    - title: Themes Themes Themes
+  content:
+    - title: Gatsby Themes are Taking Over the World
       type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
 - index: 3
-  conference: Gatsby Conf
+  conference: UI Conf
   year: 2018
   url: https://www.gatsbyjs.org/
-  date: June 23, 2018
-  location: Seattle, WA
+  date: Aug 23, 2018
+  location: Washington, DC
   image: speaking/atlanta.jpg
-  talks:
-    - title: Themes Themes Themes
+  content:
+    - title: Performant Gatsby Sites
       type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
 - index: 4
-  conference: Gatsby Conf
+  conference: Front End Conf
   year: 2018
   url: https://www.gatsbyjs.org/
-  date: June 23, 2018
-  location: Seattle, WA
+  date: Sept 23, 2018
+  location: New York, NY
   image: speaking/richmond.jpg
-  talks:
-    - title: Themes Themes Themes
+  content:
+    - title: All About Gatsby
       type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
 - index: 5
-  conference: Gatsby Conf
+  conference: JAMStack Conf
   year: 2018
   url: https://www.gatsbyjs.org/
-  date: June 23, 2018
-  location: Seattle, WA
+  date: Oct 23, 2018
+  location: Austin, TX
   image: speaking/chicago.jpg
-  talks:
-    - title: Themes Themes Themes
+  content:
+    - title: The Gatsby Talk
       type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
 - index: 6
   conference: Gatsby Conf
   year: 2018
   url: https://www.gatsbyjs.org/
-  date: June 23, 2018
-  location: Seattle, WA
+  date: Nov 23, 2018
+  location: London, UK
   image: speaking/atlanta.jpg
-  talks:
+  content:
     - title: Themes Themes Themes
       type: Video
-      video: https://www.youtube.com/watch?v=rDlokHuYwq4
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4
+    - title: More Themes For Me
+      type: Video
+      link: https://www.youtube.com/watch?v=rDlokHuYwq4

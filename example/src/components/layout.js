@@ -1,7 +1,5 @@
 import React from 'react'
 
-import '../assets/css/test.css'
-
 class Template extends React.Component {
   constructor(props) {
     super(props)

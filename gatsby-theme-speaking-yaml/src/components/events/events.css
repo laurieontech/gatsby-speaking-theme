@@ -1,0 +1,101 @@
+/* Event Styles */
+.eventwrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'conference';
+  grid-gap: 10px;
+  padding: 1em;
+}
+
+.event {
+  border: 1px solid lightgray;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.event .date {
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+  margin: 2%;
+}
+
+.event .event-name {
+  color: purple;
+  font-weight: bold;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.event .event-name:hover {
+  color: #106b60;
+}
+
+.event .talk {
+  font-size: medium;
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 2em;
+}
+
+.no-link {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.button:hover {
+  background: rgba(188, 202, 206, 0.15);
+  border-color: inherit;
+}
+
+.button {
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: none;
+  border: solid 1px;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  min-width: 18em;
+  padding: 1em;
+  line-height: 3.75em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 2em;
+}
+
+@media (min-width: 600px) {
+  .eventwrap {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 'conference';
+    grid-gap: 10px;
+    padding: 1em;
+  }
+
+  .button {
+    display: block;
+    padding: 0 0.75em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .eventwrap {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: 'conference';
+    grid-gap: 10px;
+    padding: 1em;
+  }
+}
